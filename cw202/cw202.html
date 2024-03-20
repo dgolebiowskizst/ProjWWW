@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl:PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: Comic Sans MS;
+            font-size: 200%;
+            text-align: center;
+            background-color: darkblue;
+            color: chartreuse;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            border: 3px solid green;
+            border-spacing: 10px;
+        }
+        tr {
+            text-align: center;
+        }
+        #fst {
+            visibility:hidden;
+        }
+        #lst{
+            display:none;
+        }
+        .pier {
+            border-spacing: 10px;
+        }
+        table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Wyświetlanie i ukrywanie elementów na stroinie</p>
+    <table>
+        <tr>
+            <td id="fst" class="pier"><img src="wiosna.jpg"></td>
+            <td class="pier"><img src="wiosna.jpg"></td>
+            <td class="pier"><img src="wiosna.jpg"></td>
+            <td class="pier"><img src="wiosna.jpg"></td>
+            <td id="lst" class="pier"><img src="wiosna.jpg"></td>
+        </tr>
+        <tr>
+            <td>Obrazek 1</td>
+            <td>Obrazek 2</td>
+            <td>Obrazek 3</td>
+            <td>Obrazek 4</td>
+            <td>Obrazek 5</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
