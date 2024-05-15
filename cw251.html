@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: comic sans ms;
+        }
+        form{
+            color: azure;
+        }
+        p{
+            color: azure;
+        }
+        h3{
+            color: springgreen;
+            text-align: center;
+        }
+        h1{
+            color: plum;
+            text-shadow: 5px 5px 5px;
+            text-align: center;
+        }
+        div{
+            border: 2px solid lightcyan;
+            padding: 20px;
+            margin: 20px 44%;
+            border-radius: 15px;
+        }
+        #dodatkowe:focus {
+            background-color:gold;
+        }
+        #dodatkowe:hover {
+            background-color: deeppink;
+        }
+        #wyksztalcenie:focus {
+            background-color:gold;
+        }
+        #wyksztalcenie:hover {
+            background-color: deeppink;
+        }
+        #ulica:focus {
+            background-color:gold;
+        }
+        #ulica:hover {
+            background-color: deeppink;
+        }
+        #miejsce:focus {
+            background-color:gold;
+        }
+        #miejsce:hover {
+            background-color: deeppink;
+        }
+        #nazwisko:focus {
+            background-color:gold;
+        }
+        #nazwisko:hover {
+            background-color: deeppink;
+        }
+        #imie:focus {
+            background-color:gold;
+        }
+        #imie:hover {
+            background-color: deeppink;
+        }
+        .guziki{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Dział rekrutacji firmy</h3>
+    <h1>Adrios Gwizdos</h1>
+    <form>
+        <div><p>Płeć</p>
+        <input type="radio" id="mezczycna" name="plec" value="mezczycna">
+        <label for="mezczycna">Mężczyzna</label><br>
+        <input type="radio" id="kobieta" name="plec" value="kobieta">
+        <label for="kobieta">Kobieta</label><br><br></div>
+        <div><label for="imie">Imię</label><br>
+        <input type="text" id="imie" placeholder="Jan"><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" id="nazwisko" placeholder="Kowalski"><br>
+        <label for="miejsce">Miejsce zamieszkania</label><br>
+        <input type="text" id="miejsce" placeholder="Warszawa"><br>
+        <label for="ulica">Ulica</label><br>
+        <input type="text" id="ulica" placeholder="Łazienkowska"><br><br></div>
+        <div><label for="dodatkowe">Informacje dodatkowe</label><br>
+        <input type="text" id="dodatkowe" placeholder="Tu wpisz tekst"><br>
+        <input type="text" id="dodatkowe" placeholder="Tu wpisz tekst"><br>
+        <input type="text" id="dodatkowe" placeholder="Tu wpisz tekst"><br><br></div>
+        <div><label for="wyksztalcenie">Wykształcenie</label><br>
+        <input type="text" id="wyksztalcenie" placeholder="Tu wpisz tekst"><br>
+        <input type="text" id="wyksztalcenie" placeholder="Tu wpisz tekst"><br>
+        <input type="text" id="wyksztalcenie" placeholder="Tu wpisz tekst"><br><br></div>
+        <div><p>Języki biegłe</p>
+        <input type="checkbox" id="jezb1" name="jezb1" value="eng">
+        <label for="jezb1">Angielski</label><br>
+        <input type="checkbox" id="jezb2" name="jezb2" value="deu">
+        <label for="jezb2">Niemiecki</label><br>
+        <input type="checkbox" id="jezb3" name="jezb3" value="rus">
+        <label for="jezb3">Rosyjski</label><br>
+        <input type="checkbox" id="jezb4" name="jezb4" value="esp">
+        <label for="jezb4">Hiszpański</label><br><br></div>
+        <div><p>Języki komunikatywne</p>
+        <input type="checkbox" id="jezk1" name="jezk1" value="eng">
+        <label for="jezk1">Angielski</label><br>
+        <input type="checkbox" id="jezk2" name="jezk2" value="deu">
+        <label for="jezk2">Niemiecki</label><br>
+        <input type="checkbox" id="jezk3" name="jezk3" value="rus">
+        <label for="jezk3">Rosyjski</label><br>
+        <input type="checkbox" id="jezk4" name="jezk4" value="esp">
+        <label for="jezk4">Hiszpański</label><br><br></div>
+        <div class="guziki"><input type="submit" value="Wyślij"> <input type="reset" value="Wyczyść"></div>
+    </form>
+</body>
+</html>
